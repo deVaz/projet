@@ -1,0 +1,74 @@
+10
+
+dir
+409
+https://svn.forge.isep.fr/svn/a1groupe7d/logement/admin
+https://svn.forge.isep.fr/svn/a1groupe7d
+
+
+
+2012-01-26T20:48:57.233324Z
+386
+wkerrand
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4a9e8505-17e0-47db-883b-5c0dacb5d56e
+
+controleurs
+dir
+
+index.php
+file
+
+
+
+
+2012-01-24T22:54:35.585000Z
+6907fdd15949c4cfeee8ed7b534d42b5
+2012-01-24T22:24:51.923035Z
+321
+ajouve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+272
+
+modeles
+dir
+
+vues
+dir
+
+webroot
+dir
+

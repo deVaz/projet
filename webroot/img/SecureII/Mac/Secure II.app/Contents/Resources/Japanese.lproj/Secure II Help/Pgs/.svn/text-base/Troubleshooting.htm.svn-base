@@ -1,0 +1,48 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;CHARSET=utf-8">
+	<title>トラブルシューティング</title> 
+	<meta name="AppleIndex" content="databases| layouts (databases)">
+</head>
+<body>
+<font color="#330099" face="Helvetica, Arial" size="4"><b>トラブルシューティング </b></font> 
+<hr>
+<font face="Geneva, Arial" size="2">
+<body>
+
+
+<p style="font-weight: bold;">アプリケーションを起動しようとすると &ldquo;必要なデータファイルが見つかりません&rdquo; というエラーメッセージが表示されます。</p>
+
+<p>Secure II フォルダがデバイスのルートディレクトリに置かれているかどうかとフォルダ名を確認します。データファイルが全てあることを確認してください。</p>
+
+<p style="font-weight: bold;">空き領域が充分あるのにバーチャルドライブにファイルを保存することができません。</p>
+
+<p>プラットフォームの互換性を維持するためバーチャルドライブでは FAT16 ファイル形式を使用していますが、最大ディレクトリ数が 255 に制限されます。</p>
+
+<p style="font-weight: bold;">アプリケーションを起動してもダッシュボードが表示されません。</p>
+
+<p><a HREF="Settings.htm">「アプリケーション起動時にダッシュボードを開く」オプション</a>が選択されているかどうか確認してください。</p>
+
+<p style="font-weight: bold;">バーチャルドライブがマウント解除できません。</p>
+
+<p>バーチャルドライブに関わるエクスプローラ ウィンドウや金庫室にアクセスしているアプリケーションが全て閉じているかどうか確認してから再度実行してください。</p>
+
+<p style="font-weight: bold;">バーチャルドライブが占めていたディスク領域をどうしたら開放できますか？</p>
+
+<p>金庫室ファイルを見つけ出し、<a HREF="Deleting_a_Vault.htm">削除</a>します。 </p>
+
+<p style="font-weight: bold;">暗号化されている金庫室をマウントすることができません。</p>
+
+<p>一度にマウントできる金庫室の数は最大 1 個です。既に 1 個の金庫室がマウントされている場合、どれかを<a HREF="Mounting_Unmounting_a_Vault.htm">マウント解除</a>して、やり直します。これでもマウントできない場合は、システムを再起動します。</p>
+
+<p style="font-weight: bold;">マウントボタンが無効になり、どのドライブもマウントできません。</p>
+
+<p>Secure II は、5 回ログインに失敗するとマウント機能を無効にします。一旦アプリケーションを終了し、やり直してください。</p>
+
+<p style="font-weight: bold;">デバイス上でファイルを暗号化することができません。</p>
+
+<p>デバイスの空き領域がない可能性があります。空き領域を確保してから、やり直してください。</p>
+
+
+</body>
+</html>

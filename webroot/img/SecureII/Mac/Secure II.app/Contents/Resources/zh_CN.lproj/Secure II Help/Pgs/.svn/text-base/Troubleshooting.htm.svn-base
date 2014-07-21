@@ -1,0 +1,48 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;CHARSET=utf-8">
+	<title>troubleshoot</title> 
+	<meta name="AppleIndex" content="databases| layouts (databases)">
+</head>
+<body>
+<font color="#330099" face="Helvetica, Arial" size="4"><b>疑难解答 </b></font> 
+<hr>
+<font face="Geneva, Arial" size="2">
+<body>
+
+
+<p style="font-weight: bold;">在尝试启动应用程序时，我看到一则错误消息&ldquo;未能找到某些必需的数据文件&rdquo; 。</p>
+
+<p>请确保 Secure II 文件夹位于设备的根目录中或者检查文件夹的名称是否正确。请确保所有的数据文件都存在。</p>
+
+<p style="font-weight: bold;">我有大量可用空间，但却无法将文件保存到虚拟驱动器中。</p>
+
+<p>为了确保跨平台兼容性，虚拟驱动器使用 FAT16 文件格式，而该文件格式最多只允许使用 255 个目录。</p>
+
+<p style="font-weight: bold;">在启动应用程序时，控制板不显示。</p>
+
+<p>请确保选择了<a HREF="Settings.htm">应用程序启动时打开控制板选项</a>。</p>
+
+<p style="font-weight: bold;">我的虚拟驱动器无法卸载。</p>
+
+<p>请确保关闭与该虚拟驱动器关联的所有资源管理器窗口以及访问该存储区的所有应用程序，然后重试。</p>
+
+<p style="font-weight: bold;">如何释放由虚拟驱动器占用的可用磁盘空间？</p>
+
+<p>找到存储区文件，然后<a HREF="Deleting_a_Vault.htm">删除</a>它。 </p>
+
+<p style="font-weight: bold;">我无法挂载加密存储区。</p>
+
+<p>一次最多只能挂载 1个存储区。如果您已挂载了1个存储区，请<a HREF="Mounting_Unmounting_a_Vault.htm">卸载</a>其中的某个存储区，然后重试。如果 仍无法挂载该存储区，请重新启动系统。</p>
+
+<p style="font-weight: bold;">我的挂载按钮已变为禁用状态，我无法挂载任何驱动器。</p>
+
+<p>在您尝试登录失败五次后，Secure II 将禁用挂载功能。退出该应用程序，然后重试。</p>
+
+<p style="font-weight: bold;">我无法对我的设备上的文件进行加密。</p>
+
+<p>您的设备可能没有足够的剩余空间。请释放一些空间，然后重试。</p>
+
+
+</body>
+</html>

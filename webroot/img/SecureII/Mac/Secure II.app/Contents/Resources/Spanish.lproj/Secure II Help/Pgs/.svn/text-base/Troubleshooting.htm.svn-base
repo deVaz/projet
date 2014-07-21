@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;CHARSET=utf-8">
+	<title>troubleshoot</title> 
+	<meta name="AppleIndex" content="databases| layouts (databases)">
+</head>
+
+<body>
+<font color="#330099" face="Helvetica, Arial" size="4">Solución de problemas</b></font>
+
+
+<!--(HR)============================================================-->
+<hr style="/*begin!kadov{{*/ float: aligncenter; /*}}end!kadov*/ ">
+
+
+<p style="font-weight: bold;">Cuando intento iniciar la aplicación aparece 
+ este mensaje de error : &quot;No es posible encontrar ciertos archivos 
+ necesarios&quot; .</p>
+
+<p>Asegúrese de que la carpeta de Secure II esté ubicada en el directorio 
+ raíz del dispositivo o compruebe el nombre de la carpeta. Asegúrese de 
+ que estén todos los archivos de datos.</p>
+
+<p style="font-weight: bold;">No puedo guardar archivos en mi unidad virtual 
+ aunque tengo hay bastante espacio libre.</p>
+
+<p>Para garantizar la compatibilidad en las distintas plataformas, la unidad 
+ virtual utiliza el formato de archivo FAT16 que admite un máximo de 255 
+ directorios.</p>
+
+<p style="font-weight: bold;">El Tablero no aparece cuando inicio la aplicación.</p>
+
+<p>Asegúrese de seleccionar la opción <a HREF="Settings.htm">Abrir el Tablero 
+ al iniciar la aplicación</a>.</p>
+
+<p style="font-weight: bold;">No puedo desmontar mi unidad virtual.</p>
+
+<p>Asegúrese de cerrar todas las ventanas del Explorador asociadas con 
+ la unidad virtual y todas las aplicaciones que tengan acceso a la caja 
+ fuerte, y vuelva a intentarlo.</p>
+
+<p style="font-weight: bold;">¿Cómo libero el espacio ocupado por la unidad 
+ virtual?</p>
+
+<p>Localice su archivo de caja fuerte y <a HREF="Deleting_a_Vault.htm">elimínelo</a>. 
+ </p>
+
+<p style="font-weight: bold;">No puedo montar mi caja fuerte cifrada.</p>
+
+<p>Puede montar hasta <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->un 
+ máximo de 1 cajas fuertes a la vez. Si ya tiene 1 cajas fuertes 
+ montadas, <a HREF="Mounting_Unmounting_a_Vault.htm">desmonte</a> una y 
+ vuelva a intentarlo. Si aun así no puede montar la caja fuerte, vuelva 
+ a iniciar el sistema.</p>
+
+<p style="font-weight: bold;">El botón para montar unidades está inhabilitado 
+ y no puedo montar unidades.</p>
+
+<p>Secure II inhabilita esta función después de cinco intentos de acceso 
+ fallidos. Cierre la aplicación y vuelva a intentarlo.</p>
+
+<p style="font-weight: bold;">No puedo cifrar los archivos de mi dispositivo.</p>
+
+<p>Es posible que no quede espacio en el dispositivo. Libere espacio y 
+ vuelva a intentar.</p>
+
+
+</body>
+</html>

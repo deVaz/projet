@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="AppleTitle" content="Secure II Help">
+	<meta name="AppleIcon" content="images/lticon.gif">
+	<title>Secure II Help</title> 
+</head>
+
+<!-- frames -->
+<frameset cols="190,50%" border="0" framespacing="0" frameborder="0">
+	<frame name="list_frame" src="pgs/SecIItoc.htm" noresize>
+	<frame name="content_frame" src="pgs/Dashboard.htm">
+</frameset>
+
+</html>

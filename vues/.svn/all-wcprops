@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/a1groupe7d/!svn/ver/408/logement/vues
+END
+pageAjout.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/a1groupe7d/!svn/ver/408/logement/vues/pageAjout.php
+END
+recherche.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/a1groupe7d/!svn/ver/374/logement/vues/recherche.php
+END
+modifProfil.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/371/logement/vues/modifProfil.php
+END
+menuProfil.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/a1groupe7d/!svn/ver/349/logement/vues/menuProfil.php
+END
+validInscription.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/a1groupe7d/!svn/ver/325/logement/vues/validInscription.php
+END
+pageLogementFinale.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/a1groupe7d/!svn/ver/404/logement/vues/pageLogementFinale.php
+END
+mentionslegales.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/a1groupe7d/!svn/ver/297/logement/vues/mentionslegales.php
+END
+viewProfil.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/a1groupe7d/!svn/ver/371/logement/vues/viewProfil.php
+END
+traitementModifProfil.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/a1groupe7d/!svn/ver/179/logement/vues/traitementModifProfil.php
+END
+derniersAjouts.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/a1groupe7d/!svn/ver/393/logement/vues/derniersAjouts.php
+END
+resultatRecherche.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/a1groupe7d/!svn/ver/393/logement/vues/resultatRecherche.php
+END
+mesAnnonces.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/388/logement/vues/mesAnnonces.php
+END
+changeLangue.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/a1groupe7d/!svn/ver/257/logement/vues/changeLangue.php
+END
+validModif1.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/352/logement/vues/validModif1.php
+END
+validModif2.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/352/logement/vues/validModif2.php
+END
+traitementAjout.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/a1groupe7d/!svn/ver/191/logement/vues/traitementAjout.php
+END
+validModif3.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/352/logement/vues/validModif3.php
+END
+pageContact.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/369/logement/vues/pageContact.php
+END
+traitementEnvoi.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/a1groupe7d/!svn/ver/184/logement/vues/traitementEnvoi.php
+END
+traitementMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/a1groupe7d/!svn/ver/192/logement/vues/traitementMessage.php
+END
+bas.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/a1groupe7d/!svn/ver/382/logement/vues/bas.php
+END
+topMenu.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/a1groupe7d/!svn/ver/292/logement/vues/topMenu.php
+END
+traitementConnexion.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/a1groupe7d/!svn/ver/278/logement/vues/traitementConnexion.php
+END
+faq.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/a1groupe7d/!svn/ver/406/logement/vues/faq.php
+END
+rechercheGeo.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/a1groupe7d/!svn/ver/393/logement/vues/rechercheGeo.php
+END
+haut.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/a1groupe7d/!svn/ver/331/logement/vues/haut.php
+END
+inscription.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/355/logement/vues/inscription.php
+END
+ajaxInscription.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/a1groupe7d/!svn/ver/302/logement/vues/ajaxInscription.php
+END
+password.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/a1groupe7d/!svn/ver/386/logement/vues/password.php
+END
+modifRecherche.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/a1groupe7d/!svn/ver/340/logement/vues/modifRecherche.php
+END
+membreAlert.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a1groupe7d/!svn/ver/391/logement/vues/membreAlert.php
+END
+contactAnn.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/a1groupe7d/!svn/ver/402/logement/vues/contactAnn.php
+END
+traitementInscription.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/a1groupe7d/!svn/ver/76/logement/vues/traitementInscription.php
+END
+trajetByGoogle.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/a1groupe7d/!svn/ver/399/logement/vues/trajetByGoogle.php
+END
+messagerie.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/a1groupe7d/!svn/ver/371/logement/vues/messagerie.php
+END
+ajaxMessagerie.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/a1groupe7d/!svn/ver/351/logement/vues/ajaxMessagerie.php
+END
+traitementAlert.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/a1groupe7d/!svn/ver/354/logement/vues/traitementAlert.php
+END
+deconnexion.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/a1groupe7d/!svn/ver/95/logement/vues/deconnexion.php
+END
+favoris.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/a1groupe7d/!svn/ver/371/logement/vues/favoris.php
+END
+advancedSearch.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/a1groupe7d/!svn/ver/394/logement/vues/advancedSearch.php
+END
+traitementModifProfil2.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/a1groupe7d/!svn/ver/328/logement/vues/traitementModifProfil2.php
+END
+banniereLogement.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/a1groupe7d/!svn/ver/277/logement/vues/banniereLogement.php
+END
+traitementModifProfil3.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/a1groupe7d/!svn/ver/328/logement/vues/traitementModifProfil3.php
+END
+notationPage.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/a1groupe7d/!svn/ver/404/logement/vues/notationPage.php
+END
+accueil.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/a1groupe7d/!svn/ver/395/logement/vues/accueil.php
+END
+pageProfilPublic.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/a1groupe7d/!svn/ver/408/logement/vues/pageProfilPublic.php
+END
+equipe.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/a1groupe7d/!svn/ver/407/logement/vues/equipe.php
+END

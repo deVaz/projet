@@ -1,0 +1,1100 @@
+#titre1 {color:white;
+         font-size: 150%;
+         font-weight: bold
+}
+#localisation2 {color:white;
+                font-size:150%;
+                font-weight: bold;
+                font-family:cursive;}
+
+#slider {
+    width:4000px;
+    height:2500px;
+    position:relative;	
+    overflow:hidden;
+}
+
+#exemple {
+    font-family:cursive;
+}
+
+#mask-gallery {
+
+    overflow:hidden;	
+}
+
+#gallery {
+
+    /* Clear the list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    z-index:0;
+
+    /* width = total items multiply with #mask gallery width */
+    width:900px;
+    overflow:hidden;
+}
+
+#gallery li {
+
+
+    /* float left, so that the items are arrangged horizontally */
+    float:left;
+}
+
+
+#mask-excerpt {
+
+    /* Set the position */
+    position:absolute;	
+    top:0;
+    left:0;
+    z-index:500;
+
+    /* width should be lesser than #slider width */
+    width:100px;
+    overflow:hidden;	
+
+
+}
+
+#excerpt {
+    /* Opacity setting for different browsers */
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6; 
+    -khtml-opacity: 0.6;
+    opacity: 0.6; 
+
+    /* Clear the list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    /* Set the position */
+    z-index:10;
+    position:absolute;
+    top:0;
+    left:0;
+
+    /* Set the style */
+    width:100px;
+    background-color:#000;
+    overflow:hidden;
+    font-family:cursive;
+    font-size:10px;
+    color:#fff;
+
+}
+
+#excerpt li {
+    padding:5px;
+}
+
+
+
+.clear {
+    clear:both;	
+}
+
+#carré{background-color: #003366;
+       background-image:  url('webroot/img/brique.jpg');
+       margin-top: 50px;
+       padding-top: 10px;
+       padding-bottom:15px;
+       color: white;
+}
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #2fa0eb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1189d9), to(#2fa0eb));
+    background: -webkit-linear-gradient(top, #1189d9, #2fa0eb);
+    background: -moz-linear-gradient(top, #1189d9, #2fa0eb);
+    background: -ms-linear-gradient(top, #1189d9, #2fa0eb);
+    background: -o-linear-gradient(top, #1189d9, #2fa0eb);
+    padding: 12.5px 25px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#localisation1{fontsize : 20px;}
+.button:hover {
+    border-top-color: #397fad;
+    background: #397fad;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+body {
+    background: #b7deed; /* Old browsers */
+    background: -moz-linear-gradient(left, #b7deed 0%, #21b4e2 48%, #71ceef 85%, #b7deed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b7deed), color-stop(48%,#21b4e2), color-stop(85%,#71ceef), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #b7deed 0%,#21b4e2 48%,#71ceef 85%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #b7deed 0%,#21b4e2 48%,#71ceef 85%,#b7deed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #b7deed 0%,#21b4e2 48%,#71ceef 85%,#b7deed 100%); /* IE10+ */
+    background: linear-gradient(left, #b7deed 0%,#21b4e2 48%,#71ceef 85%,#b7deed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 */
+} 
+
+#header{
+    width: 631px;
+    margin: auto;
+}
+#topMenu{
+    position:relative;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    left:0;
+    width: 90%;
+    text-align: center;
+}
+
+#headerProfil{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
+    background-color: rgba(15, 146, 179, 0.5);
+    padding-right: 20px;
+}
+#headerProfil ul{
+    list-style-type: none;
+    border: 0;
+}
+#headerProfil li:hover {
+    background-color: blue;
+}
+
+#topMenu li{
+    list-style-type: none;
+    display : inline;
+}
+#topMenu a{
+    text-decoration: none;
+}
+.topMenuButton{
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 10px 20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: 10px;
+}
+.topMenuButton:hover {
+    border-top-color: #2b99e3;
+    background: #2b99e3;
+    color: #ccc;
+}
+.topMenuButton:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+.topMenuButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#headerMenu{
+    border-bottom: 1px solid blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    right:0;
+    background-color: rgba(15, 146, 179, 0.5);
+    color:white;
+    font-family: georgia;
+}
+
+#headerMenu table{
+    border-collapse: collapse;
+}
+#headerMenu td{
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#headerMenu td:hover{
+    background-color: blue;
+}
+#headerMenuConnect{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#headerMenuConnexion{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
+    background-color: rgba(15, 146, 179, 0.5);
+
+}
+#headerMenuConnexion input{
+    width: 150px;
+}
+#headerMenuConnect a{
+    color: white;
+    text-decoration: none;
+}
+
+#headerMenuConnexion table tr td {
+    border: none;
+}
+#headerMenuConnexion table tr td:hover {
+    background-color: rgba(15, 146, 179, 0);
+}
+
+
+
+#body{
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    padding: 20px;
+    margin-bottom: 15px;  
+
+}
+
+#footer{         
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    background-color: rgba(15, 146, 179, 0.6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 8px 8px 20px #888;  
+    -webkit-box-shadow: 8px 8px 20px #888;  
+    box-shadow:8px 8px 12px #888;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: white;
+    z-index: 0;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.mine
+
+nav{
+
+    width: 740px;
+    text-align: right;
+    font-size: xx-large;
+    font-weight : bold;   
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+fieldset legend {
+
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
+#inscription{
+
+}
+#inscription fieldset{
+    border: 1px solid brown;  
+}
+#inscription legend{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+}
+#inscription td{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+
+
+
+#recherche{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+#ajout fieldset{
+    border : 1px solid brown;
+}
+
+#ajout td{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#ajout legend{
+    color:brown;
+    font-size: large;
+    font-weight: bold;
+}
+
+#ajout {
+
+}
+
+#logement legend{
+    color:brown;
+    font-size: large;
+    font-weight: bold;
+}
+
+#logement fieldset{
+    border:1px brown solid;
+}
+
+#logement td{
+    vertical-align:top;
+}
+
+
+
+#recherche fieldset{
+    border : 1px solid brown; 
+}
+
+#recherche legend {
+    color:brown;
+    font-size: large;
+    font-weight: bold;
+}
+
+#advancedSearch{
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+    vertical-align: top;
+}
+#advancedSearch fieldset{
+    padding-left: 20px;
+    margin-top: 10px;
+    vertical-align: top;
+    border: 1px brown solid;
+    padding-right: 20px;
+}
+
+#advancedSearch legend{
+    color : brown;    
+}
+
+#advancedSearch td{
+    vertical-align: top;
+}
+
+#search{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    /* Anciens navigateurs */
+    background: #3399cc url("gradient-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* Navigateurs récents */
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(#003C5E),
+        to(#3399cc)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -moz-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -o-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 8px 8px 20px #888;  
+    -webkit-box-shadow: 8px 8px 20px #888;  
+    box-shadow:8px 8px 12px #888;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Georgia;
+}
+#search h3{
+    color: #6DBEEC;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#search p{
+    color: white;
+    font-size: 12px;
+}
+#search h4{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+#search label{
+    color: #6DBEEC;
+    font-size: 18px;
+}
+.searchButton{
+    height: 110px;
+    min-width: 250px;
+    border: 1px solid black;
+    background: #3399cc url("gradient-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* Navigateurs récents */
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(#003C5E),
+        to(#3399cc)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -moz-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -o-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+}
+.searchButton :hover{
+    background-color: blue ; 
+}
+#search table{
+    border-collapse: collapse;
+}
+#search td{
+    padding-right: 1%;
+    padding-left: 1%;
+}
+/* Page de profil */
+
+#menuProfil{
+    float: left;
+    margin-right: 20px;
+    margin-top: 0;
+    width: 200px;
+    background-color: #3399cc url("gradient-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* Navigateurs récents */
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(#003C5E),
+        to(#3399cc)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -moz-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -o-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+
+    border: 1px solid brown;
+    z-index: 2;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    behavior: url(/PIE.htc);
+}
+#menuProfil h3{
+    text-align: center;
+    margin-top:0;
+    background-color: brown;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    behavior: url(/PIE.htc);
+}
+#menuProfil ul{
+    list-style-type: none;
+}
+#menuProfil a{
+    text-decoration: none;
+    color: white;
+}
+#menuProfil li:hover{
+    background-color: white;
+    color:black;
+}
+
+#profilBody{
+    margin-left: 230px;
+}
+
+#profil fieldset{
+    border: 1px solid brown;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    behavior: url(/PIE.htc);
+}
+#profil legend{
+    color: brown;
+}
+#description_du_bien{
+    padding-top:4px;
+    padding-left:10px;
+    text-align: left;
+}
+#searchResult fieldset{
+    border: 1px brown solid;
+}
+
+#searchResult legend{
+    color:brown;
+}
+#profil td{
+    padding-left: 25px;
+}
+
+#pageContact fieldset{
+    border:1px brown solid;
+}
+
+#pageContact legend{
+    color: brown;
+}
+
+#pageContact {
+    margin-top: 20px;
+}
+
+#pageContact textarea{
+    height: 60px;
+    width: 1000px;
+    margin:auto;
+    text-align: left;
+}
+
+
+
+#modifier_votre_recherche{
+    float:left;
+    text-align: left;
+    margin-right:20px;
+    z-index: 0;
+}
+#photorecherche{
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+#rechercheEchange{
+    margin-bottom: 470px;
+}
+
+
+#menuMessagerie{
+    float:left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    background-color:#3399cc url("gradient-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* Navigateurs récents */
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(#003C5E),
+        to(#3399cc)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -moz-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: -o-linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+    background: linear-gradient(
+        top,
+        #003C5E,
+        #3399cc
+        );
+
+}
+#menuMessagerie h3{
+    margin-top: 0;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+#menuMessagerie ul{
+    padding-right: 10px;
+    list-style-type: none;
+}
+#menuMessagerie a{
+    text-decoration: none;
+    color: white;
+}
+#menuMessagerie li:hover{   
+    color:black;
+    background-color: white;
+}
+#messagerie table {
+    background-color: rgba(15, 146, 179, 0.6);
+    border-collapse: collapse;
+}
+#messagerie th {
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+}
+#messagerie td{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+}
+
+#messagerie fieldset{
+
+    border : 1px solid brown;
+}
+
+#messagerie legend{
+    
+    color: brown;
+}
+
+#accomodations{
+    height:176px;
+}
+#conditionsFR{
+    border: 1px brown solid;
+}
+
+#slider {
+
+    /* You MUST specify the width and height */
+    width:300px;
+    height:186px;
+    position:relative;	
+    overflow:hidden;
+}
+
+#mask-gallery {
+
+    overflow:hidden;	
+}
+
+#gallery {
+
+    /* Clear the list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    z-index:0;
+
+    /* width = total items multiply with #mask gallery width */
+    width:900px;
+    overflow:hidden;
+}
+
+#gallery li {
+
+
+    /* float left, so that the items are arrangged horizontally */
+    float:left;
+}
+
+
+#mask-excerpt {
+
+    /* Set the position */
+    position:absolute;	
+    top:0;
+    left:0;
+    z-index:500;
+
+    /* width should be lesser than #slider width */
+    width:100px;
+    overflow:hidden;	
+
+
+}
+
+#excerpt {
+    /* Opacity setting for different browsers */
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;  
+    -khtml-opacity: 0.6;
+    opacity: 0.6;  
+
+    /* Clear the list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    /* Set the position */
+    z-index:10;
+    position:absolute;
+    top:0;
+    left:0;
+
+    /* Set the style */
+    width:100px;
+    background-color:#000;
+    overflow:hidden;
+    font-family:arial;
+    font-size:10px;
+    color:#fff;	
+}
+
+#excerpt li {
+    padding:5px;
+}
+
+
+
+.clear {
+    clear:both;	
+}
+
+.identite{
+    height:300px;
+}
+
+/*  La recherche  */
+
+.ac_results {
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.ac_results ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ac_results li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: default;
+    display: block;
+    /* 
+    if width will be 100% horizontal scrollbar will apear 
+    when scroll mode will be used
+    */
+    /*width: 100%;*/
+    font: menu;
+    font-size: 12px;
+    /* 
+    it is very important, if line-height not setted or setted 
+    in relative units scroll will be broken in firefox
+    */
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.ac_loading {
+    background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+    background-color: #eee;
+}
+
+.ac_over {
+    background-color: #0A246A;
+    color: white;
+}
+.mapRecherche{
+    height: 200px;
+    width: 95%;
+}
+.antContent{
+    background-color: rgba(15, 146, 179, 0.5);
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 15%;
+    padding: 5px;
+}
+.antContent2{
+    background-color: rgba(15, 146, 179, 0.5);
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+.antContentButton{
+    background-color: rgba(15, 146, 179, 0.5);
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 25%;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+.buttonFavorite {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.buttonFavorite:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+.buttonFavorite:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+#slider {
+
+    /* You MUST specify the width and height */
+    width:350px;
+    height:250px;
+    position:relative;	
+    overflow:hidden;
+}
+
+#mask-gallery {
+
+    overflow:hidden;	
+}
+
+#gallery {
+
+    /* Clear the list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    z-index:0;
+
+    /* width = total items multiply with #mask gallery width */
+    width:900px;
+    overflow:hidden;
+}
+
+#gallery li {
+
+
+    /* float left, so that the items are arrangged horizontally */
+    float:left;
+}
+
+
+#mask-excerpt {
+
+    /* Set the position */
+    position:absolute;	
+    top:0;
+    left:0;
+    z-index:500;
+
+    /* width should be lesser than #slider width */
+    width:100px;
+    overflow:hidden;	
+
+
+}
+
+#excerpt {
+    /* Opacity setting for different browsers */
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;  
+    -khtml-opacity: 0.6;
+    opacity: 0.6;  
+
+    /* Clear the list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    /* Set the position */
+    z-index:10;
+    position:absolute;
+    top:0;
+    left:0;
+
+    /* Set the style */
+    width:100px;
+    background-color:#000;
+    overflow:hidden;
+    font-family:arial;
+    font-size:10px;
+    color:#fff;	
+}
+
+#excerpt li {
+    padding:5px;
+}
+
+
+
+.clear {
+    clear:both;	
+}
+
+#profil {
+    
+    text-align: left;
+}
+
+#valid {
+
+    border : 1px solid brown;
+}
+
+#valide {
+    
+    color: brown;
+}
+
+.brouillone{
+    color:brown;
+}
+
+#margeImage{
+    margin-right: 20px;
+}
+
+#menuMarge{
+    margin-left: 6.5%;
+    margin-top: 85px;
+}
+
+#faq h3,h4{
+    color:brown;
+}

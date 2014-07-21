@@ -1,0 +1,48 @@
+﻿ <html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;CHARSET=UTF-8">
+	<title>troubleshoot</title> 
+	<meta name="AppleIndex" content="databases| layouts (databases)">
+</head>
+<body>
+<font color="#330099" face="Helvetica, Arial" size="4"><b>D&eacute;pannage </b></font> 
+<hr>
+<font face="Geneva, Arial" size="2">
+<body>
+
+
+<p style="font-weight: bold;">Je re&ccedil;ois un message d'erreur : &ldquo;Impossible de trouver certaines donn&eacute;es obligatoires,&rdquo; lorsque j'essaie de lancer l'application.</p>
+
+<p>Veillez &agrave; ce que le dossier Secure II soit situ&eacute; dans le r&eacute;pertoire source du lecteur ou v&eacute;rifiez le nom du dossier. Veillez &agrave; ce que tous les fichiers de donn&eacute;es soient pr&eacute;sents.</p>
+
+<p style="font-weight: bold;">Je ne peux pas enregistrer de fichiers sur mon lecteur virtuel, alors que j'ai beaucoup d'espace libre.</p>
+
+<p>Pour assurer une compatibilit&eacute; multi-plateforme, les lecteurs virtuels utilisent le format de fichier FAT16 qui autorise un maximum de 255 r&eacute;pertoires.</p>
+
+<p style="font-weight: bold;">Mon Tableau de bord n'appara&icirc;t pas lorsque je lance l'application.</p>
+
+<p>Veillez &agrave; s&eacute;lectionner l'option <a HREF="Settings.htm">Ouvrir le Tableau de bord au lancement de l'application</a>.</p>
+
+<p style="font-weight: bold;">Mon lecteur virtuel refuse d'&ecirc;tre d&eacute;mont&eacute;.</p>
+
+<p>Veillez &agrave; fermer toutes les fen&ecirc;tres de l'Explorateur associ&eacute;es au lecteur virtuel et toutes les applications qui acc&egrave;dent &agrave; la chambre forte, puis essayez &agrave; nouveau.</p>
+
+<p style="font-weight: bold;">Comment lib&eacute;rer de l'espace disque libre occup&eacute; par le lecteur virtuel ?</p>
+
+<p>Localisez le fichier de votre chambre forte et <a HREF="Deleting_a_Vault.htm">supprimez</a>-le. </p>
+
+<p style="font-weight: bold;">Je n'arrive pas &agrave; monter ma chambre forte crypt&eacute;e.</p>
+
+<p>Vous pouvez monter un maximum de 1 chambres fortes &agrave; la fois. Si vous avez d&eacute;j&agrave; mont&eacute; 1 chambres fortes, <a HREF="Mounting_Unmounting_a_Vault.htm">d&eacute;montez</a> l'une des chambres fortes puis essayez &agrave; nouveau. Si vous ne pouvez toujours pas monter la chambre forte, red&eacute;marrez le syst&egrave;me.</p>
+
+<p style="font-weight: bold;">Mon bouton Monter est d&eacute;sactiv&eacute; et je ne peux plus monter de lecteur.</p>
+
+<p>Secure II d&eacute;sactive cette fonctionnalit&eacute; apr&egrave;s cinq &eacute;checs de connexion. Quittez l'application puis essayez &agrave; nouveau.</p>
+
+<p style="font-weight: bold;">Je ne peux pas crypter de fichier sur mon lecteur.</p>
+
+<p>Votre lecteur n'a peut-&ecirc;tre plus d'espace libre. Lib&eacute;rez de l'espace et recommencez.</p>
+
+
+</body>
+</html>

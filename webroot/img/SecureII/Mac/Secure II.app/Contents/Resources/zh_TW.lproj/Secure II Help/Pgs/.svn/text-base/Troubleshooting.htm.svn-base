@@ -1,0 +1,48 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;CHARSET=utf-8">
+	<title>troubleshoot</title> 
+	<meta name="AppleIndex" content="databases| layouts (databases)">
+</head>
+<body>
+<font color="#330099" face="Helvetica, Arial" size="4"><b>疑難排解 </b></font> 
+<hr>
+<font face="Geneva, Arial" size="2">
+<body>
+
+
+<p style="font-weight: bold;">嘗試啟動應用程式時，出現錯誤訊息，「未找到某些必需檔案」。</p>
+
+<p>請確保 Secure II 檔案夾位於設備的根目錄或檢查檔案夾名是否正確。請確保所有的資料檔案都存在。</p>
+
+<p style="font-weight: bold;">雖然有大量可用空間，但無法將檔案儲存至虛擬磁碟機。</p>
+
+<p>為確保跨平台相容性，虛擬設備採用了 FAT16 檔案格式，這種格式最多只允許 255 個目錄。</p>
+
+<p style="font-weight: bold;">啟動應用程式時，Dashboard 不顯示。</p>
+
+<p>請確保選中了<a HREF="Settings.htm">啟動應用程式時打開 Dashboard 選項</a>。</p>
+
+<p style="font-weight: bold;">不能解除掛載虛擬磁碟機。</p>
+
+<p>請確保關閉了所有與虛擬磁碟機相關的檔案總管視窗和所有存取存儲區的應用程式，然後重試。</p>
+
+<p style="font-weight: bold;">如何釋放虛擬磁碟機佔用的磁碟空間？</p>
+
+<p>找到存儲區檔案並將其<a HREF="Deleting_a_Vault.htm">刪除</a>。 </p>
+
+<p style="font-weight: bold;">無法掛載已加密存儲區。</p>
+
+<p>每次最多只能掛載 1 個存儲區。如果已掛載了 1 個存儲區，請<a HREF="Mounting_Unmounting_a_Vault.htm">解除掛載</a>其中一個存儲區，然後重試。如果 仍無法掛載存儲區，請重新啟動系統。</p>
+
+<p style="font-weight: bold;">掛載按鈕已變為停用狀態，不能掛載任何磁碟機。</p>
+
+<p>嘗試登入失敗 5 次後，Secure II 將停用此功能。請結束應用程式，然後重試。</p>
+
+<p style="font-weight: bold;">不能加密設備中的檔案。</p>
+
+<p>您的設備可能沒有足夠的剩餘空間。請釋放一些空間，然後重試。</p>
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>idProductRangeList</key>
+	<array>
+		<string>A200-A20F</string>
+		<string>A702-A702</string>
+		<string>A732-A732</string>
+		<string>A782-A782</string>
+		<string>A788-A788</string>
+	</array>
+	<key>idVendor</key>
+	<string>05DC</string>
+</dict>
+</plist>

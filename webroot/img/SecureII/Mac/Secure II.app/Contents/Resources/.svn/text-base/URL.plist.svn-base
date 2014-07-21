@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UpdateDownloadURL</key>
+	<string>http://lexar.com/updates/SecureII_rel2009/v21/MacSecureII.dmg</string>
+	<key>UpdateVersionURL</key>
+	<string>http://lexar.com/updates/SecureII_rel2009/MacSecureIIVersion.txt</string>
+</dict>
+</plist>
