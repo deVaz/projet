@@ -1,9 +1,9 @@
 <?php
 
 $bdd1 = 'projet';
-$user = 'root';
-$pass = '';
-$host = 'localhost';
+$user = 'admint8tjU77';
+$pass = 'Cd2J2G6v-1QQ';
+$host = '127.6.89.2';
 $admin = 'admin';
 
 //Constantes
